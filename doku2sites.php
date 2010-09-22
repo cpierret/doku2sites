@@ -91,7 +91,7 @@ $tidy_config = array(
 
 function print_help_message()
 {
-	echo "doku2google -u DOKU_USERNAME -p DOKU_PASSWORD [-h DOKU_HOSTNAME] [-d DIRECTORY] [-s DOKU_URL] [-a AUTHOR] [-m AUTHOR_EMAIL] [-?]\n";
+	echo "php doku2sites.php -u DOKU_USERNAME -p DOKU_PASSWORD [-h DOKU_HOSTNAME] [-d DIRECTORY] [-s DOKU_URL] [-a AUTHOR] [-m AUTHOR_EMAIL] [-?]\n";
 	echo "Options:\n";
 	echo "  -u DOKU_USERNAME a DokuWiki username with access to the DokuWiki XMLRPC API.\n";
 	echo "  -p DOKU_PASSWORD the DokuWiki password.\n";
