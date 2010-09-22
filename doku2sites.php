@@ -123,7 +123,7 @@ function get_footer($author,$email)
 		. '</abbr> by <span class="author"><span class="vcard"><a class="fn" href="mailto:'
 		. htmlspecialchars($email,ENT_QUOTES,'UTF-8')
 		. '">'
-		. htmlspecialchars($email,ENT_QUOTES,'UTF-8')
+		. htmlspecialchars($author,ENT_QUOTES,'UTF-8')
 		. '</a></span></span> (Version <span class="sites:revision">4</span>)</small>';
 }
 
